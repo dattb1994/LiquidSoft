@@ -1,0 +1,2841 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664f5e81389e6174ba97f11ace76cbf0, type: 3}
+  m_Name: Level
+  m_EditorClassIdentifier: 
+  levels:
+  - name: Level 1
+    bottles:
+    - liquids:
+      - color: 1
+        amount: 2
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 2
+      - color: 1
+        amount: 4
+    - liquids: []
+  - name: Level 2
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+    - liquids:
+      - color: 3
+        amount: 1
+    - liquids:
+      - color: 4
+        amount: 3
+    - liquids:
+      - color: 3
+        amount: 3
+  - name: Level 3
+    bottles:
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 3
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+    - liquids: []
+  - name: Level 4
+    bottles:
+    - liquids:
+      - color: 2
+        amount: 3
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 3
+        amount: 3
+    - liquids: []
+  - name: Level 5
+    bottles:
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 3
+        amount: 3
+    - liquids:
+      - color: 3
+        amount: 2
+      - color: 1
+        amount: 3
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 2
+        amount: 3
+    - liquids: []
+  - name: Level 6
+    bottles:
+    - liquids:
+      - color: 5
+        amount: 2
+      - color: 3
+        amount: 3
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 3
+        amount: 2
+      - color: 1
+        amount: 3
+    - liquids:
+      - color: 1
+        amount: 1
+    - liquids:
+      - color: 2
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 3
+        amount: 4
+  - name: Level 7
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids: []
+  - name: Level 8
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 9
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 10
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 11
+    bottles:
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids: []
+    - liquids: []
+    - liquids: []
+  - name: Level 12
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 13
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 14
+    bottles:
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 2
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 15
+    bottles:
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 2
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 7
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 16
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 1
+        amount: 3
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 4
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 17
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 18
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 19
+    bottles:
+    - liquids:
+      - color: 8
+        amount: 0
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 0
+      - color: 4
+        amount: 0
+      - color: 2
+        amount: 0
+      - color: 1
+        amount: 0
+    - liquids: []
+    - liquids: []
+  - name: Level 20
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 21
+    bottles:
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 5
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 1
+        amount: 3
+      - color: 6
+        amount: 4
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 22
+    bottles:
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 8
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 23
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 5
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+    - liquids: []
+  - name: Level 24
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 25
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 26
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 2
+      - color: 9
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 9
+        amount: 2
+      - color: 2
+        amount: 3
+    - liquids:
+      - color: 5
+        amount: 2
+      - color: 9
+        amount: 3
+    - liquids:
+      - color: 4
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 3
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 3
+        amount: 3
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 6
+        amount: 3
+  - name: Level 27
+    bottles:
+    - liquids:
+      - color: 2
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 4
+        amount: 0
+      - color: 7
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 1
+        amount: 3
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 7
+        amount: 2
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 4
+    - liquids: []
+  - name: Level 28
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 29
+    bottles:
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 2
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 30
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 2
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 31
+    bottles:
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 4
+        amount: 3
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 6
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 32
+    bottles:
+    - liquids:
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 33
+    bottles:
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 34
+    bottles:
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 8
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 35
+    bottles:
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 2
+        amount: 1
+      - color: 4
+        amount: 1
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 36
+    bottles:
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 9
+        amount: 4
+    - liquids:
+      - color: 9
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 3
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 3
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 9
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 9
+        amount: 1
+      - color: 3
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 37
+    bottles:
+    - liquids:
+      - color: 9
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 9
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 3
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 3
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 3
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 9
+        amount: 4
+    - liquids:
+      - color: 3
+        amount: 1
+      - color: 9
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 38
+    bottles:
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 4
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 8
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 39
+    bottles:
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 3
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 7
+        amount: 3
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 3
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 3
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 40
+    bottles:
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 11
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 41
+    bottles:
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 2
+      - color: 11
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 42
+    bottles:
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 7
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 43
+    bottles:
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 10
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 11
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 2
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 44
+    bottles:
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 10
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 11
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 45
+    bottles:
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 2
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 1
+        amount: 1
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 46
+    bottles:
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 4
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 1
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 47
+    bottles:
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 11
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 11
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 8
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 1
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 48
+    bottles:
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 11
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 11
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 7
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 6
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 2
+        amount: 2
+      - color: 10
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 49
+    bottles:
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 2
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 5
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 6
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 4
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 10
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 6
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: Level 50
+    bottles:
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 11
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 1
+        amount: 2
+      - color: 7
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 10
+        amount: 1
+      - color: 7
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 11
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 10
+        amount: 2
+      - color: 2
+        amount: 3
+      - color: 10
+        amount: 4
+    - liquids:
+      - color: 1
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 7
+        amount: 2
+      - color: 8
+        amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 11
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids: []
+    - liquids: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []
+  - name: 'Level '
+    bottles: []

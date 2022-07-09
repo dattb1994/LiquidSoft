@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9bec9338396bc5a4fb1edf65572958ca
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - iCiel Be Cool
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 37f984950abd0c143802f21903b52770, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
