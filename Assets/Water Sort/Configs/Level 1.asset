@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 664f5e81389e6174ba97f11ace76cbf0, type: 3}
-  m_Name: Level
+  m_Name: Level 1
   m_EditorClassIdentifier: 
   levels:
   - name: Level 1
@@ -44,29 +44,27 @@ MonoBehaviour:
     bottles:
     - liquids:
       - color: 5
-        amount: 2
+        amount: 1
       - color: 1
-        amount: 4
+        amount: 3
     - liquids:
       - color: 1
         amount: 1
       - color: 5
-        amount: 3
+        amount: 2
       - color: 1
-        amount: 4
+        amount: 3
     - liquids: []
   - name: Level 4
     bottles:
     - liquids:
       - color: 2
         amount: 3
-      - color: 3
-        amount: 4
     - liquids:
       - color: 2
         amount: 1
       - color: 3
-        amount: 4
+        amount: 3
     - liquids: []
   - name: Level 5
     bottles:
@@ -76,17 +74,17 @@ MonoBehaviour:
       - color: 2
         amount: 2
       - color: 3
-        amount: 4
+        amount: 3
     - liquids:
       - color: 3
         amount: 2
       - color: 1
-        amount: 4
+        amount: 3
     - liquids:
       - color: 1
         amount: 1
       - color: 2
-        amount: 4
+        amount: 3
     - liquids: []
   - name: Level 6
     bottles:
@@ -94,21 +92,17 @@ MonoBehaviour:
       - color: 5
         amount: 2
       - color: 3
-        amount: 4
+        amount: 3
     - liquids:
       - color: 2
         amount: 1
       - color: 3
         amount: 2
       - color: 1
-        amount: 4
+        amount: 3
     - liquids:
       - color: 1
         amount: 1
-      - color: 2
-        amount: 2
-      - color: 5
-        amount: 4
     - liquids:
       - color: 2
         amount: 2
@@ -116,8 +110,6 @@ MonoBehaviour:
         amount: 3
       - color: 3
         amount: 4
-    - liquids: []
-    - liquids: []
   - name: Level 7
     bottles:
     - liquids:
@@ -213,11 +205,6 @@ MonoBehaviour:
         amount: 3
       - color: 6
         amount: 4
-    - liquids:
-      - color: 1
-        amount: 1
-      - color: 2
-        amount: 4
     - liquids: []
     - liquids: []
   - name: Level 10
@@ -263,11 +250,6 @@ MonoBehaviour:
         amount: 3
       - color: 5
         amount: 4
-    - liquids:
-      - color: 6
-        amount: 3
-      - color: 7
-        amount: 4
     - liquids: []
     - liquids: []
   - name: Level 11
@@ -304,11 +286,7 @@ MonoBehaviour:
         amount: 3
       - color: 5
         amount: 4
-    - liquids:
-      - color: 1
-        amount: 1
-      - color: 2
-        amount: 4
+    - liquids: []
     - liquids: []
     - liquids: []
   - name: Level 12
@@ -423,7 +401,7 @@ MonoBehaviour:
         amount: 4
     - liquids:
       - color: 1
-        amount: 1
+        amount: 2
       - color: 7
         amount: 3
       - color: 5
@@ -525,10 +503,6 @@ MonoBehaviour:
         amount: 4
     - liquids:
       - color: 7
-        amount: 2
-      - color: 8
-        amount: 3
-      - color: 7
         amount: 4
     - liquids:
       - color: 2
@@ -554,7 +528,7 @@ MonoBehaviour:
       - color: 6
         amount: 2
       - color: 1
-        amount: 4
+        amount: 3
     - liquids:
       - color: 8
         amount: 1
@@ -680,7 +654,7 @@ MonoBehaviour:
     bottles:
     - liquids:
       - color: 8
-        amount: 1
+        amount: 0
       - color: 6
         amount: 4
     - liquids:
@@ -711,32 +685,32 @@ MonoBehaviour:
       - color: 5
         amount: 4
     - liquids:
-      - color: 1
-        amount: 1
-      - color: 11
-        amount: 2
-      - color: 5
-        amount: 3
-      - color: 1
-        amount: 4
-    - liquids:
       - color: 7
         amount: 1
-      - color: 11
+      - color: 2
         amount: 2
       - color: 4
         amount: 3
-      - color: 11
+      - color: 2
         amount: 4
     - liquids:
-      - color: 5
+      - color: 1
         amount: 1
-      - color: 4
+      - color: 2
         amount: 2
-      - color: 11
+      - color: 5
         amount: 3
       - color: 1
         amount: 4
+    - liquids:
+      - color: 4
+        amount: 0
+      - color: 4
+        amount: 0
+      - color: 2
+        amount: 0
+      - color: 1
+        amount: 0
     - liquids: []
     - liquids: []
   - name: Level 20
@@ -780,7 +754,7 @@ MonoBehaviour:
         amount: 2
       - color: 1
         amount: 3
-      - color: 4
+      - color: 7
         amount: 4
     - liquids: []
     - liquids: []
@@ -790,65 +764,61 @@ MonoBehaviour:
       - color: 1
         amount: 1
       - color: 5
-        amount: 2
-      - color: 7
         amount: 3
+      - color: 1
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 1
+        amount: 3
+      - color: 6
+        amount: 4
       - color: 1
         amount: 4
     - liquids:
       - color: 7
         amount: 1
-      - color: 5
+      - color: 4
+        amount: 2
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 8
+        amount: 1
+      - color: 6
+        amount: 2
+      - color: 4
+        amount: 3
+      - color: 8
+        amount: 4
+    - liquids:
+      - color: 4
+        amount: 1
+      - color: 2
         amount: 2
       - color: 8
+        amount: 3
+      - color: 7
+        amount: 4
+    - liquids:
+      - color: 2
+        amount: 1
+      - color: 8
+        amount: 2
+      - color: 5
+        amount: 3
+      - color: 2
+        amount: 4
+    - liquids:
+      - color: 5
+        amount: 1
+      - color: 6
+        amount: 3
+      - color: 4
         amount: 4
     - liquids: []
     - liquids: []
-    - liquids:
-      - color: 2
-        amount: 1
-      - color: 8
-        amount: 2
-      - color: 6
-        amount: 3
-      - color: 2
-        amount: 4
-    - liquids:
-      - color: 5
-        amount: 1
-      - color: 6
-        amount: 2
-      - color: 1
-        amount: 3
-      - color: 4
-        amount: 4
-    - liquids:
-      - color: 6
-        amount: 1
-      - color: 5
-        amount: 2
-      - color: 4
-        amount: 3
-      - color: 6
-        amount: 4
-    - liquids:
-      - color: 2
-        amount: 1
-      - color: 1
-        amount: 2
-      - color: 8
-        amount: 3
-      - color: 7
-        amount: 4
-    - liquids:
-      - color: 4
-        amount: 1
-      - color: 7
-        amount: 2
-      - color: 2
-        amount: 3
-      - color: 4
-        amount: 4
   - name: Level 22
     bottles:
     - liquids:
@@ -932,8 +902,6 @@ MonoBehaviour:
         amount: 2
       - color: 1
         amount: 3
-      - color: 4
-        amount: 4
     - liquids:
       - color: 7
         amount: 1
@@ -946,7 +914,7 @@ MonoBehaviour:
     - liquids:
       - color: 5
         amount: 1
-      - color: 6
+      - color: 5
         amount: 3
       - color: 4
         amount: 4
@@ -957,7 +925,9 @@ MonoBehaviour:
         amount: 3
       - color: 7
         amount: 4
-    - liquids: []
+    - liquids:
+      - color: 4
+        amount: 1
     - liquids: []
   - name: Level 24
     bottles:
@@ -991,7 +961,7 @@ MonoBehaviour:
         amount: 2
       - color: 4
         amount: 3
-      - color: 8
+      - color: 7
         amount: 4
     - liquids:
       - color: 6
@@ -1082,48 +1052,53 @@ MonoBehaviour:
   - name: Level 26
     bottles:
     - liquids:
-      - color: 7
+      - color: 6
         amount: 1
-      - color: 5
-        amount: 2
       - color: 4
         amount: 3
       - color: 5
         amount: 4
     - liquids:
-      - color: 7
-        amount: 1
+      - color: 1
+        amount: 2
+      - color: 9
+        amount: 3
+      - color: 5
+        amount: 4
+    - liquids:
+      - color: 9
+        amount: 2
+      - color: 2
+        amount: 3
+    - liquids:
+      - color: 5
+        amount: 2
+      - color: 9
+        amount: 3
+    - liquids:
+      - color: 4
+        amount: 2
       - color: 1
         amount: 3
-      - color: 6
+      - color: 3
         amount: 4
     - liquids:
-      - color: 5
+      - color: 2
         amount: 1
-      - color: 4
+      - color: 6
         amount: 2
       - color: 1
         amount: 3
-      - color: 7
+      - color: 2
         amount: 4
     - liquids:
-      - color: 6
-        amount: 2
-      - color: 4
+      - color: 3
         amount: 3
-      - color: 1
-        amount: 4
     - liquids:
-      - color: 4
+      - color: 2
         amount: 1
-      - color: 7
-        amount: 2
-      - color: 5
-        amount: 3
       - color: 6
-        amount: 4
-    - liquids: []
-    - liquids: []
+        amount: 3
   - name: Level 27
     bottles:
     - liquids:
@@ -1140,13 +1115,11 @@ MonoBehaviour:
         amount: 2
       - color: 7
         amount: 3
-      - color: 5
-        amount: 4
     - liquids:
       - color: 1
         amount: 1
       - color: 4
-        amount: 2
+        amount: 0
       - color: 7
         amount: 3
       - color: 6
@@ -1158,15 +1131,11 @@ MonoBehaviour:
         amount: 2
       - color: 1
         amount: 3
-      - color: 5
-        amount: 4
     - liquids:
       - color: 8
         amount: 1
       - color: 7
         amount: 2
-      - color: 5
-        amount: 4
     - liquids:
       - color: 4
         amount: 1
@@ -1185,7 +1154,9 @@ MonoBehaviour:
         amount: 3
       - color: 7
         amount: 4
-    - liquids: []
+    - liquids:
+      - color: 5
+        amount: 4
     - liquids: []
   - name: Level 28
     bottles:
@@ -1365,9 +1336,9 @@ MonoBehaviour:
       - color: 4
         amount: 1
       - color: 5
-        amount: 3
+        amount: 2
       - color: 4
-        amount: 4
+        amount: 3
     - liquids:
       - color: 8
         amount: 1
@@ -2706,61 +2677,6 @@ MonoBehaviour:
     - liquids:
       - color: 2
         amount: 1
-      - color: 11
-        amount: 2
-      - color: 8
-        amount: 3
-      - color: 11
-        amount: 4
     - liquids:
-      - color: 5
-        amount: 1
-      - color: 1
-        amount: 2
-      - color: 7
-        amount: 3
-      - color: 11
-        amount: 4
-    - liquids:
-      - color: 10
-        amount: 1
-      - color: 7
-        amount: 2
-      - color: 8
-        amount: 3
-      - color: 11
-        amount: 4
-    - liquids:
-      - color: 5
-        amount: 1
-      - color: 10
-        amount: 2
       - color: 2
-        amount: 3
-      - color: 10
-        amount: 4
-    - liquids:
-      - color: 1
-        amount: 2
-      - color: 5
-        amount: 3
-      - color: 2
-        amount: 4
-    - liquids:
-      - color: 7
-        amount: 2
-      - color: 8
-        amount: 3
-      - color: 1
-        amount: 4
-    - liquids:
-      - color: 11
         amount: 1
-      - color: 8
-        amount: 2
-      - color: 5
-        amount: 3
-      - color: 2
-        amount: 4
-    - liquids: []
-    - liquids: []

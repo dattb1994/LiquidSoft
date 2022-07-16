@@ -15,8 +15,10 @@ namespace LiquidSoft
 
         public GameObject levelDonePanel;
         public GameObject playingDisplay;
-        
+        public GameObject loadingPanel;
+        public GameObject levelIsOverPanel;
 
+        public GameObject timeOuInternetMesage;
         private void Awake()
         {
             instance = this;
@@ -29,7 +31,9 @@ namespace LiquidSoft
 
             EventListenner.instance.OnLevelDone += OnLevelDone;
             EventListenner.instance.OnLevelIsSpawn += OnLevelPlaying;
-
+            EventListenner.instance.OnLevelLoadStardDone += OnLoadingStaredDone;
+            EventListenner.instance.OnTimeOutConnectInternet += WhenTimeOutInternet;
+            EventListenner.instance.OnLevelIsOver += OnLevelIsOver;
         }
         public void OnButtonReplayClick()
         {
@@ -68,6 +72,28 @@ namespace LiquidSoft
         public void OnTurnOffSound()
         {
             imgAudio.sprite = soundOff;
+        }
+        public void OnLoadingStaredDone()
+        {
+            loadingPanel.SetActive(false);
+        }
+        public void OnStartLoadingLevel()
+        {
+            loadingPanel.SetActive(true);
+            playingDisplay.SetActive(false);
+        }
+        public void WhenTimeOutInternet()
+        {
+            timeOuInternetMesage.SetActive(true);
+            Invoke("HideTimeOutInternetMesage", 3);
+        }
+        private void HideTimeOutInternetMesage()
+        {
+            timeOuInternetMesage.SetActive(false);
+        }
+        public void OnLevelIsOver()
+        {
+            levelIsOverPanel.SetActive(true);
         }
     }
 }

@@ -50,13 +50,14 @@ namespace LiquidSoft
             levelUnlock = LevelUnlock;
         }
 
-        private void Start()
+        private IEnumerator Start()
         {
             //EventListenner.instance.OnLevelDone += OnNextLevel;
+            //yield return null;
+            //if (levelSet > 0)
+            //    LevelNow = levelSet;
 
-            //if(levelSet>0)
-                //LevelNow = levelSet;
-
+            yield return GetComponent<LevelChecker>().Check();
             OnSpawnLevel(LevelNow);
         }
         public void OnNextLevel()

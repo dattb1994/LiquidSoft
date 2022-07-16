@@ -218,6 +218,101 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43480743}
   m_CullTransparentMesh: 1
+--- !u!1 &69090710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 69090711}
+  - component: {fileID: 69090714}
+  - component: {fileID: 69090713}
+  - component: {fileID: 69090712}
+  m_Layer: 5
+  m_Name: Level 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &69090711
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69090710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167731329}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.2854662, y: 0.5}
+  m_AnchorMax: {x: 0.7065993, y: 0.614}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -0.000022888}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &69090712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69090710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 0.1462264, b: 0.1462264, a: 0.5}
+  m_EffectDistance: {x: 10, y: 10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &69090713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69090710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a4894ed757c62a94799c56329fa7ac53, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 1
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Level 5
+--- !u!222 &69090714
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69090710}
+  m_CullTransparentMesh: 1
 --- !u!1001 &77865761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -303,6 +398,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f346b00b53514d94a69fc47cb71f05b, type: 3}
+--- !u!1 &98591054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 98591055}
+  - component: {fileID: 98591057}
+  - component: {fileID: 98591056}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &98591055
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98591054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167731329}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.26089418, y: 0.6919761}
+  m_AnchorMax: {x: 0.7529354, y: 0.79965025}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &98591056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98591054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -677511352579669728, guid: 85f885139b67d744ebc114cdca56398f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &98591057
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98591054}
+  m_CullTransparentMesh: 1
 --- !u!1 &101944788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1602,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: -0.000022888}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &925930574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925930575}
+  - component: {fileID: 925930577}
+  - component: {fileID: 925930576}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &925930575
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925930574}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1012905653}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.165}
+  m_AnchoredPosition: {x: -0.000022888184, y: 0.000015258789}
+  m_SizeDelta: {x: 0, y: 0.00032425}
+  m_Pivot: {x: 0.49999994, y: 0.9999993}
+--- !u!114 &925930576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925930574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 5666114338529617392, guid: 4e7f5d1c075834c46b3fefce6bf68447, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &925930577
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925930574}
+  m_CullTransparentMesh: 1
 --- !u!1 &941013738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,8 +1937,62 @@ MonoBehaviour:
   action: 0
   resetLevel: 0
   printColor: 0
+  printLevel: 0
+  pushToApi: 0
+  levelCOnfigMain: {fileID: 11400000, guid: 46745453e63539546b242c260e149f8f, type: 2}
   color: {r: 0.6048742, g: 1, b: 0.23113209, a: 1}
   StrColor: 0.6048742f,1f,0.2311321f,1
+  levelJson: '{"levels":[{"name":"Level 1","bottles":[{"liquids":[{"color":1,"amount":2},{"color":2,"amount":4}]},{"liquids":[{"color":2,"amount":2},{"color":1,"amount":4}]},{"liquids":[]}]},{"name":"Level
+    2","bottles":[{"liquids":[{"color":4,"amount":1}]},{"liquids":[{"color":3,"amount":1}]},{"liquids":[{"color":4,"amount":3}]},{"liquids":[{"color":3,"amount":3}]}]},{"name":"Level
+    3","bottles":[{"liquids":[{"color":5,"amount":2},{"color":1,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":5,"amount":3},{"color":1,"amount":4}]},{"liquids":[]}]},{"name":"Level
+    4","bottles":[{"liquids":[{"color":2,"amount":3},{"color":3,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":3,"amount":4}]},{"liquids":[]}]},{"name":"Level
+    5","bottles":[{"liquids":[{"color":1,"amount":1},{"color":2,"amount":2},{"color":3,"amount":4}]},{"liquids":[{"color":3,"amount":2},{"color":1,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":2,"amount":4}]},{"liquids":[]}]},{"name":"Level
+    6","bottles":[{"liquids":[{"color":5,"amount":2},{"color":3,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":3,"amount":2},{"color":1,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":2,"amount":2},{"color":5,"amount":4}]},{"liquids":[{"color":2,"amount":2},{"color":1,"amount":3},{"color":3,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    7","bottles":[{"liquids":[{"color":6,"amount":1},{"color":7,"amount":2},{"color":6,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":6,"amount":2},{"color":7,"amount":3},{"color":6,"amount":4}]},{"liquids":[]}]},{"name":"Level
+    8","bottles":[{"liquids":[{"color":6,"amount":1},{"color":7,"amount":2},{"color":1,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":7,"amount":2},{"color":1,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":6,"amount":2},{"color":7,"amount":3},{"color":1,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    9","bottles":[{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":6,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":4,"amount":2},{"color":6,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":1,"amount":2},{"color":7,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":5,"amount":2},{"color":1,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":4,"amount":2},{"color":2,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":2,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    10","bottles":[{"liquids":[{"color":4,"amount":1},{"color":6,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":2,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":5,"amount":2},{"color":2,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":5,"amount":2},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":1,"amount":2},{"color":4,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":6,"amount":3},{"color":7,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    11","bottles":[{"liquids":[{"color":1,"amount":1},{"color":4,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":1,"amount":2},{"color":5,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":7,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":5,"amount":2},{"color":7,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":2,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    12","bottles":[{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":6,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":5,"amount":2},{"color":6,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":5,"amount":2},{"color":1,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":1,"amount":2},{"color":4,"amount":3},{"color":5,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    13","bottles":[{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":4,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":5,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":1,"amount":2},{"color":2,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":1,"amount":2},{"color":4,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":4,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    14","bottles":[{"liquids":[{"color":5,"amount":1},{"color":1,"amount":2},{"color":2,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":4,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":1,"amount":2},{"color":7,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":1,"amount":2},{"color":4,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":2,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    15","bottles":[{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":4,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":8,"amount":2},{"color":5,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":2,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":7,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":8,"amount":2},{"color":4,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":1,"amount":2},{"color":2,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":5,"amount":2},{"color":7,"amount":3},{"color":8,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    16","bottles":[{"liquids":[{"color":6,"amount":1},{"color":5,"amount":2},{"color":6,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":2},{"color":4,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":7,"amount":2},{"color":7,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":1,"amount":2},{"color":5,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":4,"amount":2},{"color":1,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":6,"amount":2},{"color":1,"amount":3}]},{"liquids":[{"color":8,"amount":1},{"color":2,"amount":2},{"color":4,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    17","bottles":[{"liquids":[{"color":6,"amount":1},{"color":5,"amount":2},{"color":4,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":6,"amount":2},{"color":5,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":7,"amount":2},{"color":1,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":4,"amount":2},{"color":1,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":7,"amount":2},{"color":1,"amount":3},{"color":5,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    18","bottles":[{"liquids":[{"color":6,"amount":1},{"color":5,"amount":2},{"color":4,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":4,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":8,"amount":2},{"color":7,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":1,"amount":2},{"color":6,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":5,"amount":2},{"color":8,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":7,"amount":2},{"color":6,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":1,"amount":2},{"color":6,"amount":3},{"color":7,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    19","bottles":[{"liquids":[{"color":8,"amount":0},{"color":6,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":8,"amount":2},{"color":5,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":7,"amount":2},{"color":8,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":7,"amount":2},{"color":4,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":2,"amount":2},{"color":4,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":2,"amount":2},{"color":5,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":4,"amount":0},{"color":4,"amount":0},{"color":2,"amount":0},{"color":1,"amount":0}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    20","bottles":[{"liquids":[{"color":6,"amount":1},{"color":4,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":1,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":5,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":1,"amount":2},{"color":7,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":4,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    21","bottles":[{"liquids":[{"color":1,"amount":1},{"color":5,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":1,"amount":3},{"color":6,"amount":4},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":4,"amount":2},{"color":7,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":6,"amount":2},{"color":4,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":2,"amount":2},{"color":8,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":8,"amount":2},{"color":5,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":3},{"color":4,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    22","bottles":[{"liquids":[{"color":2,"amount":1},{"color":8,"amount":2},{"color":6,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":1,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":5,"amount":2},{"color":4,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":1,"amount":2},{"color":8,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":2,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":5,"amount":2},{"color":7,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":5,"amount":2},{"color":8,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    23","bottles":[{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":6,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":5,"amount":2},{"color":1,"amount":3}]},{"liquids":[{"color":7,"amount":1},{"color":6,"amount":2},{"color":1,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":5,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":5,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":4,"amount":1}]},{"liquids":[]}]},{"name":"Level
+    24","bottles":[{"liquids":[{"color":4,"amount":1},{"color":1,"amount":2},{"color":5,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":2,"amount":2},{"color":5,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":7,"amount":2},{"color":8,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":5,"amount":2},{"color":4,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":4,"amount":2},{"color":2,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":6,"amount":2},{"color":2,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":7,"amount":2},{"color":1,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    25","bottles":[{"liquids":[{"color":6,"amount":2},{"color":7,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":5,"amount":2},{"color":2,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":1,"amount":2},{"color":8,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":4,"amount":2},{"color":2,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":6,"amount":2},{"color":2,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":7,"amount":2},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":1,"amount":2},{"color":7,"amount":3},{"color":5,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    26","bottles":[{"liquids":[{"color":6,"amount":1},{"color":4,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":1,"amount":2},{"color":9,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":9,"amount":2},{"color":2,"amount":3}]},{"liquids":[{"color":5,"amount":2},{"color":9,"amount":3}]},{"liquids":[{"color":4,"amount":2},{"color":1,"amount":3},{"color":3,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":6,"amount":2},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":3,"amount":3}]},{"liquids":[{"color":2,"amount":1},{"color":6,"amount":3}]}]},{"name":"Level
+    27","bottles":[{"liquids":[{"color":2,"amount":2},{"color":6,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":1,"amount":2},{"color":7,"amount":3}]},{"liquids":[{"color":1,"amount":1},{"color":4,"amount":0},{"color":7,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":6,"amount":2},{"color":1,"amount":3}]},{"liquids":[{"color":8,"amount":1},{"color":7,"amount":2}]},{"liquids":[{"color":4,"amount":1},{"color":2,"amount":2},{"color":6,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":8,"amount":2},{"color":1,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":5,"amount":4}]},{"liquids":[]}]},{"name":"Level
+    28","bottles":[{"liquids":[{"color":4,"amount":1},{"color":1,"amount":2},{"color":5,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":1,"amount":2},{"color":6,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":8,"amount":2},{"color":7,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":4,"amount":2},{"color":6,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":8,"amount":2},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":4,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":6,"amount":2},{"color":7,"amount":3},{"color":8,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    29","bottles":[{"liquids":[{"color":1,"amount":1},{"color":6,"amount":4}]},{"liquids":[{"color":4,"amount":2},{"color":7,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":1,"amount":2},{"color":5,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":4,"amount":2},{"color":7,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":1,"amount":2},{"color":5,"amount":3},{"color":6,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    30","bottles":[{"liquids":[{"color":6,"amount":2},{"color":8,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":1,"amount":2},{"color":8,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":1,"amount":2},{"color":4,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":2,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":8,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":5,"amount":2},{"color":8,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":2,"amount":2},{"color":5,"amount":3},{"color":4,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    31","bottles":[{"liquids":[{"color":7,"amount":1},{"color":1,"amount":2},{"color":2,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":5,"amount":2},{"color":4,"amount":3}]},{"liquids":[{"color":8,"amount":1},{"color":6,"amount":2},{"color":7,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":8,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":8,"amount":2},{"color":5,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":1,"amount":2},{"color":7,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":6,"amount":3},{"color":8,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    32","bottles":[{"liquids":[{"color":7,"amount":2},{"color":1,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":4,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":1,"amount":2},{"color":5,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":1,"amount":2},{"color":4,"amount":3},{"color":7,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    33","bottles":[{"liquids":[{"color":7,"amount":1},{"color":8,"amount":2},{"color":2,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":5,"amount":2},{"color":1,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":8,"amount":2},{"color":4,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":6,"amount":2},{"color":5,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":6,"amount":2},{"color":2,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":7,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":4,"amount":3},{"color":1,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    34","bottles":[{"liquids":[{"color":8,"amount":1},{"color":2,"amount":2},{"color":5,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":4,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":7,"amount":2},{"color":6,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":2,"amount":2},{"color":4,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":1,"amount":2},{"color":4,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":8,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":7,"amount":2},{"color":1,"amount":3},{"color":5,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    35","bottles":[{"liquids":[{"color":7,"amount":1},{"color":5,"amount":4}]},{"liquids":[{"color":6,"amount":2},{"color":2,"amount":1},{"color":4,"amount":1}]},{"liquids":[{"color":7,"amount":1},{"color":1,"amount":2},{"color":6,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":8,"amount":2},{"color":7,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":8,"amount":2},{"color":2,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":2,"amount":2},{"color":4,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":1,"amount":2},{"color":7,"amount":3},{"color":4,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    36","bottles":[{"liquids":[{"color":5,"amount":1},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":8,"amount":2},{"color":6,"amount":3},{"color":9,"amount":4}]},{"liquids":[{"color":9,"amount":1},{"color":5,"amount":2},{"color":7,"amount":3},{"color":3,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":4,"amount":2},{"color":5,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":7,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":3,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":9,"amount":1},{"color":7,"amount":2},{"color":2,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":1,"amount":2},{"color":8,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":9,"amount":1},{"color":3,"amount":2},{"color":6,"amount":3},{"color":7,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    37","bottles":[{"liquids":[{"color":9,"amount":1},{"color":4,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":6,"amount":2},{"color":5,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":2,"amount":2},{"color":6,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":9,"amount":2},{"color":1,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":3,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":5,"amount":2},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":3,"amount":2},{"color":2,"amount":3},{"color":3,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":8,"amount":2},{"color":2,"amount":3},{"color":9,"amount":4}]},{"liquids":[{"color":3,"amount":1},{"color":9,"amount":2},{"color":8,"amount":3},{"color":5,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    38","bottles":[{"liquids":[{"color":1,"amount":1},{"color":4,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":6,"amount":2},{"color":7,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":8,"amount":2},{"color":5,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":4,"amount":2},{"color":2,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":7,"amount":2},{"color":2,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":8,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":7,"amount":3},{"color":1,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    39","bottles":[{"liquids":[{"color":6,"amount":1},{"color":1,"amount":2},{"color":10,"amount":3},{"color":3,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":10,"amount":2},{"color":7,"amount":3}]},{"liquids":[{"color":8,"amount":1},{"color":4,"amount":2},{"color":8,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":3,"amount":2},{"color":2,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":5,"amount":2},{"color":8,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":1,"amount":2},{"color":5,"amount":3},{"color":10,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":5,"amount":2},{"color":2,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":3,"amount":1},{"color":4,"amount":2},{"color":6,"amount":3},{"color":4,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    40","bottles":[{"liquids":[{"color":11,"amount":1},{"color":5,"amount":2},{"color":1,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":11,"amount":2},{"color":5,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":6,"amount":2},{"color":4,"amount":3},{"color":10,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":7,"amount":2},{"color":4,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":7,"amount":2},{"color":1,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":7,"amount":2},{"color":6,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":2,"amount":2},{"color":6,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":1,"amount":2},{"color":10,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":8,"amount":2},{"color":11,"amount":3},{"color":8,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    41","bottles":[{"liquids":[{"color":2,"amount":1},{"color":1,"amount":2},{"color":8,"amount":3},{"color":10,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":1,"amount":2},{"color":10,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":10,"amount":2},{"color":2,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":1,"amount":2},{"color":11,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":2,"amount":2},{"color":7,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":7,"amount":2},{"color":5,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":7,"amount":2},{"color":10,"amount":3},{"color":8,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    42","bottles":[{"liquids":[{"color":8,"amount":1},{"color":11,"amount":2},{"color":10,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":6,"amount":2},{"color":11,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":8,"amount":2},{"color":1,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":2,"amount":2},{"color":6,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":10,"amount":2},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":10,"amount":2},{"color":7,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":2,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":7,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":5,"amount":2},{"color":6,"amount":3},{"color":10,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    43","bottles":[{"liquids":[{"color":10,"amount":1},{"color":2,"amount":2},{"color":4,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":1,"amount":2},{"color":4,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":6,"amount":2},{"color":10,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":5,"amount":2},{"color":7,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":11,"amount":2},{"color":5,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":11,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":8,"amount":2},{"color":6,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":8,"amount":2},{"color":5,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":2,"amount":3},{"color":5,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    44","bottles":[{"liquids":[{"color":10,"amount":1},{"color":2,"amount":2},{"color":5,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":7,"amount":2},{"color":8,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":10,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":7,"amount":2},{"color":2,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":10,"amount":2},{"color":11,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":11,"amount":2},{"color":2,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":8,"amount":2},{"color":1,"amount":3},{"color":8,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    45","bottles":[{"liquids":[{"color":4,"amount":1},{"color":5,"amount":2},{"color":8,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":11,"amount":2},{"color":2,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":4,"amount":2},{"color":10,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":2,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":4,"amount":2},{"color":5,"amount":3},{"color":10,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":6,"amount":2},{"color":10,"amount":3},{"color":1,"amount":1}]},{"liquids":[{"color":2,"amount":1},{"color":11,"amount":2},{"color":6,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":11,"amount":2},{"color":1,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":1,"amount":2},{"color":7,"amount":3},{"color":6,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    46","bottles":[{"liquids":[{"color":7,"amount":1},{"color":4,"amount":2},{"color":6,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":6,"amount":1},{"color":11,"amount":2},{"color":10,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":11,"amount":2},{"color":2,"amount":3},{"color":10,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":1,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":8,"amount":3},{"color":6,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":10,"amount":2},{"color":2,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":7,"amount":2},{"color":4,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":5,"amount":2},{"color":4,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":11,"amount":2},{"color":8,"amount":3},{"color":7,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    47","bottles":[{"liquids":[{"color":5,"amount":1},{"color":7,"amount":2},{"color":11,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":2,"amount":2},{"color":10,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":7,"amount":1},{"color":8,"amount":2},{"color":11,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":8,"amount":2},{"color":1,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":8,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":1,"amount":2},{"color":10,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":2,"amount":2},{"color":1,"amount":3},{"color":10,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    48","bottles":[{"liquids":[{"color":1,"amount":1},{"color":7,"amount":2},{"color":11,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":6,"amount":2},{"color":8,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":8,"amount":2},{"color":11,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":7,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":7,"amount":2},{"color":6,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":10,"amount":2},{"color":6,"amount":4}]},{"liquids":[{"color":4,"amount":1},{"color":2,"amount":2},{"color":10,"amount":3},{"color":8,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":1,"amount":2},{"color":2,"amount":3},{"color":5,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":10,"amount":2},{"color":4,"amount":3},{"color":11,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    49","bottles":[{"liquids":[{"color":11,"amount":1},{"color":5,"amount":2},{"color":2,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":2,"amount":3},{"color":10,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":7,"amount":2},{"color":1,"amount":4}]},{"liquids":[{"color":8,"amount":1},{"color":6,"amount":2},{"color":8,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":2,"amount":1},{"color":5,"amount":2},{"color":4,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":6,"amount":2},{"color":7,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":1,"amount":1},{"color":7,"amount":2},{"color":8,"amount":3},{"color":4,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":10,"amount":3},{"color":7,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":7,"amount":2},{"color":6,"amount":3},{"color":8,"amount":4}]},{"liquids":[]},{"liquids":[]}]},{"name":"Level
+    50","bottles":[{"liquids":[{"color":2,"amount":1},{"color":11,"amount":2},{"color":8,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":1,"amount":2},{"color":7,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":10,"amount":1},{"color":7,"amount":2},{"color":8,"amount":3},{"color":11,"amount":4}]},{"liquids":[{"color":5,"amount":1},{"color":10,"amount":2},{"color":2,"amount":3},{"color":10,"amount":4}]},{"liquids":[{"color":1,"amount":2},{"color":5,"amount":3},{"color":2,"amount":4}]},{"liquids":[{"color":7,"amount":2},{"color":8,"amount":3},{"color":1,"amount":4}]},{"liquids":[{"color":11,"amount":1},{"color":8,"amount":2},{"color":5,"amount":3},{"color":2,"amount":4}]},{"liquids":[]},{"liquids":[]}]}]}'
+  levelSet: 1
 --- !u!4 &974168082
 Transform:
   m_ObjectHideFlags: 0
@@ -1708,6 +2007,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1012905652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012905653}
+  - component: {fileID: 1012905655}
+  - component: {fileID: 1012905654}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1012905653
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012905652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1584519961}
+  - {fileID: 925930575}
+  m_Father: {fileID: 1762399392}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.40661496, y: 0.45265836}
+  m_AnchorMax: {x: 0.54551846, y: 0.5344792}
+  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_SizeDelta: {x: -0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1012905654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012905652}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1068911788829216841, guid: 4e7f5d1c075834c46b3fefce6bf68447, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1012905655
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012905652}
+  m_CullTransparentMesh: 1
 --- !u!1 &1019596307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,7 +2189,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1140452983
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1828,13 +2204,92 @@ RectTransform:
   - {fileID: 533144832}
   - {fileID: 363411272}
   m_Father: {fileID: 2064431514}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1167731328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167731329}
+  - component: {fileID: 1167731331}
+  - component: {fileID: 1167731330}
+  m_Layer: 5
+  m_Name: border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1167731329
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167731328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 98591055}
+  - {fileID: 1976712773}
+  - {fileID: 69090711}
+  - {fileID: 1895139164}
+  m_Father: {fileID: 1618805584}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.0927037, y: 0.36}
+  m_AnchorMax: {x: 0.9095186, y: 0.754}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1167731330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167731328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7ff149cb296108f4a9c6f1148b1b8460, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1167731331
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167731328}
+  m_CullTransparentMesh: 1
 --- !u!4 &1178497386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4333208161994908, guid: 4a54c0f33e5fa47aea3e2718843abb0b, type: 3}
@@ -2066,6 +2521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1401236113}
+  - component: {fileID: 1401236117}
   - component: {fileID: 1401236112}
   - component: {fileID: 1401236114}
   - component: {fileID: 1401236115}
@@ -2125,7 +2581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelSpawner: {fileID: 553258577}
-  levelSet: 0
+  levelSet: 1
   levelNow: 0
   levelUnlock: 0
 --- !u!114 &1401236115
@@ -2147,6 +2603,9 @@ MonoBehaviour:
   txtLevelDone: {fileID: 920175950}
   levelDonePanel: {fileID: 1019596307}
   playingDisplay: {fileID: 1717624398}
+  loadingPanel: {fileID: 1762399391}
+  levelIsOverPanel: {fileID: 1618805580}
+  timeOuInternetMesage: {fileID: 9091568816161690983}
 --- !u!114 &1401236116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2165,6 +2624,19 @@ MonoBehaviour:
   sound_ground: {fileID: 1379132856}
   sound_level_done: {fileID: 2094927614}
   volume: 0
+--- !u!114 &1401236117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401236111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64675d01d5518a24c8edb88f309e926d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameFile: levelConfig.json
 --- !u!1 &1447000578
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,6 +2732,191 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c6b9b48c5e73dd4ebb5a9c9f6279a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1584519960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1584519961}
+  - component: {fileID: 1584519964}
+  - component: {fileID: 1584519963}
+  - component: {fileID: 1584519962}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1584519961
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584519960}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1012905653}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.22200002}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000022888184, y: -0.000049591064}
+  m_SizeDelta: {x: 0, y: -0.00015259}
+  m_Pivot: {x: 0.49999994, y: 0.49999973}
+--- !u!95 &1584519962
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584519960}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 40811a2e8e6a2ad429b445e3274c340b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1584519963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584519960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1068911788829216841, guid: 4e7f5d1c075834c46b3fefce6bf68447, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1584519964
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584519960}
+  m_CullTransparentMesh: 1
+--- !u!1 &1618805580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1618805584}
+  - component: {fileID: 1618805583}
+  - component: {fileID: 1618805582}
+  - component: {fileID: 1618805581}
+  m_Layer: 5
+  m_Name: LevelOver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1618805581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618805580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9267eebf6fba4e24e85e3f2fb504c804, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_my: {fileID: 1447000578}
+--- !u!114 &1618805582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618805580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.003921569}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1618805583
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618805580}
+  m_CullTransparentMesh: 1
+--- !u!224 &1618805584
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618805580}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1167731329}
+  m_Father: {fileID: 2064431514}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1671261659
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,7 +2998,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1717624399
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2363,6 +3020,82 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1762399391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762399392}
+  - component: {fileID: 1762399394}
+  - component: {fileID: 1762399393}
+  m_Layer: 5
+  m_Name: Loading
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1762399392
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762399391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1012905653}
+  m_Father: {fileID: 2064431514}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1762399393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762399391}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1762399394
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762399391}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1860247316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2646,6 +3379,235 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a54c0f33e5fa47aea3e2718843abb0b, type: 3}
+--- !u!1 &1895139163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1895139164}
+  - component: {fileID: 1895139167}
+  - component: {fileID: 1895139166}
+  - component: {fileID: 1895139165}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1895139164
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895139163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167731329}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 71.7655}
+  m_SizeDelta: {x: 468.82, y: 235.1045}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1895139165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895139163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 0.184016, b: 0, a: 0.5882353}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1895139166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895139163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 2
+  m_Text: 'LEVEL IS OVER
+
+    COMING SOON!'
+--- !u!222 &1895139167
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895139163}
+  m_CullTransparentMesh: 1
+--- !u!1 &1976712772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1976712773}
+  - component: {fileID: 1976712776}
+  - component: {fileID: 1976712775}
+  - component: {fileID: 1976712774}
+  m_Layer: 5
+  m_Name: ButtonContinue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1976712773
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976712772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167731329}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.27639753, y: 0.14520118}
+  m_AnchorMax: {x: 0.72253114, y: 0.4076576}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1976712774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976712772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1976712775}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1401236114}
+        m_TargetAssemblyTypeName: LiquidSoft.LevelController, Assembly-CSharp
+        m_MethodName: OnNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1976712775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976712772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 636ccea424f199045b364217d7c44dfc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1976712776
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976712772}
+  m_CullTransparentMesh: 1
 --- !u!1 &2064431510
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,7 +3701,10 @@ RectTransform:
   m_Children:
   - {fileID: 1717624399}
   - {fileID: 1019596308}
+  - {fileID: 1618805584}
   - {fileID: 1140452983}
+  - {fileID: 1762399392}
+  - {fileID: 5884323794844706880}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3012,3 +3977,174 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113237726}
   m_CullTransparentMesh: 1
+--- !u!224 &5884323794844706880
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9091568816161690983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8247997525048815238}
+  m_Father: {fileID: 2064431514}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.2392963, y: 0}
+  m_AnchorMax: {x: 0.7631482, y: 0.022562502}
+  m_AnchoredPosition: {x: 0.4248047, y: -0.00012207031}
+  m_SizeDelta: {x: 0.8495, y: -0.0000038147}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8146490072166849654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9091568816161690983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.045184262, g: 0, b: 0.4339623, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &8247997525048815238
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8247997525048815239}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5884323794844706880}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &8247997525048815239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8247997525048815238}
+  - component: {fileID: 8247997525048815243}
+  - component: {fileID: 8247997525048815240}
+  - component: {fileID: 8247997525048815241}
+  m_Layer: 5
+  m_Name: timoutMesage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &8247997525048815240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8247997525048815239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 18
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Connect to internet to update new level!
+--- !u!114 &8247997525048815241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8247997525048815239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9993752, g: 1, b: 0.27843142, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!222 &8247997525048815243
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8247997525048815239}
+  m_CullTransparentMesh: 1
+--- !u!222 &8684846341304475537
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9091568816161690983}
+  m_CullTransparentMesh: 1
+--- !u!1 &9091568816161690983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5884323794844706880}
+  - component: {fileID: 8684846341304475537}
+  - component: {fileID: 8146490072166849654}
+  m_Layer: 5
+  m_Name: timoutMesage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0

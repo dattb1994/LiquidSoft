@@ -68,20 +68,6 @@ namespace LiquidSoft
                 yield return null;
             }
 
-            ///Xoay góc đổ
-            //float angle = WaterSoftExtension.IntToAngle(GetTopPercent());
-            //print("Goc do : " + WaterSoftExtension.IntToAngle(GetTopPercent()));
-
-            //float angleZ = 0;
-
-            //while (angleZ != angle)
-            //{
-            //    angleZ = Mathf.MoveTowards(angleZ, angle, Time.deltaTime * ConfigColecter.instance.softConfig.speedPour * 3);
-            //    //print(transform.parent.eulerAngles +"_____"+ angle);
-            //    transform.parent.eulerAngles = new Vector3(0, 0, angleZ);
-
-            //    yield return null;
-            //}
             transform.parent.eulerAngles = new Vector3(0, 0, WaterSoftExtension.IntToAngle(GetTopPercent()));
 
             ///Bắt đầu đổ

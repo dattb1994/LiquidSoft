@@ -14,6 +14,10 @@ namespace LiquidSoft
 
         public OnPostInt OnLevelDone;
         public OnPostInt OnLevelIsSpawn;
+        public OnPostEvent OnLevelLoadStardDone;
+        public OnPostEvent OnStartLoadLevel;
+        public OnPostEvent OnTimeOutConnectInternet;
+        public OnPostEvent OnLevelIsOver;
 
         private void Awake()
         {

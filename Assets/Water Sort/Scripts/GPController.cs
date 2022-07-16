@@ -116,7 +116,6 @@ namespace LiquidSoft
                 {
                     foreach (Liquid item in _bottles[i].transform.GetComponentsInChildren<Liquid>())
                     {
-                        print(item.liquidLevel.color+"____"+ color);
                         if (item.liquidLevel.color == color)
                             return false;
                     }
@@ -158,8 +157,16 @@ namespace LiquidSoft
                 }
             }
 
-            print("on level done");
-            EventListenner.instance.OnLevelDone.Invoke(LevelController.instance.levelNow);
+            if (LevelController.instance.LevelNow == ConfigColecter.instance.levelConfig.levels.Count)
+            {
+                print("level is over");
+                EventListenner.instance.OnLevelIsOver?.Invoke();
+            }
+            else
+            {
+                print("standby next level");
+                EventListenner.instance.OnLevelDone.Invoke(LevelController.instance.levelNow);
+            }
         }
         #endregion
     }
