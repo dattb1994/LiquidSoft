@@ -53,11 +53,13 @@ namespace LiquidSoft
         private IEnumerator Start()
         {
             //EventListenner.instance.OnLevelDone += OnNextLevel;
-            //yield return null;
+            yield return null;
             //if (levelSet > 0)
             //    LevelNow = levelSet;
 
-            yield return GetComponent<LevelChecker>().Check();
+            //DebugLog.instance.Add("LevelNow " + LevelNow);
+            //yield return GetComponent<LevelChecker>().Check();
+            //DebugLog.instance.Add(" OnSpawnLevel(LevelNow)+ " + LevelNow);
             OnSpawnLevel(LevelNow);
         }
         public void OnNextLevel()
