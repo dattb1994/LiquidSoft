@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4758b8435aed7974399735619a8f9848, type: 3}
   m_Name: Water Soft Other
   m_EditorClassIdentifier: 
-  speedMove: 1000
-  speedPour: 300
+  speedMove: 300
+  speedPour: 30
   coutColor: 4
   minBottom: 0
   maxTop: 0
