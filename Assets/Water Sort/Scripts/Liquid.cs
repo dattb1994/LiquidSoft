@@ -92,7 +92,10 @@ namespace LiquidSoft
         grey=8,
         indigo_blue=9,
         dark_green = 10,
-        light_blue = 11
+        light_blue = 11,
+        dark_blue = 12,
+        light_green = 13,
+        purple = 14
     }
 
 }

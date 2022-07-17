@@ -83,13 +83,16 @@ namespace LiquidSoft
                 case TypeColor.blue: return Color.blue;
                 case TypeColor.yellow: return Color.yellow;
                 case TypeColor.green: return Color.green;
-                case TypeColor.pink: return new Color(0.9675527f, 0.433f, 0.9803922f, 1);
-                case TypeColor.violet: return new Color(0.39f, 0f, 1f, 1);
+                case TypeColor.pink: return new Color(1f, 0.2311321f, 0.799534f, 1);
+                case TypeColor.violet: return new Color(0.5f, 0f, 1f, 1);
                 case TypeColor.orange: return new Color(1f, 0.3087484f, 0f, 1);
                 case TypeColor.grey: return new Color(0.5849056f, 0.5849056f, 0.5849056f, 1);
                 case TypeColor.indigo_blue: return new Color(0.4622642f, 0.1504539f, 0.3022301f, 1);
-                case TypeColor.dark_green: return new Color(0f, 0.05322438f, 0.6603774f, 1);
-                case TypeColor.light_blue: return new Color(0.6048742f, 1f, 0.2311321f, 1);
+                case TypeColor.dark_blue: return new Color(0f, 0.2160905f, 0.5283019f, 1);
+                case TypeColor.light_blue: return new Color(0.2916963f, 0.8962264f, 0.8789988f, 1);
+                case TypeColor.light_green: return new Color(0.3820755f, 1f, 0.3820755f, 1);
+                case TypeColor.dark_green: return new Color(0.03793584f, 0.4339623f, 0f, 1);
+                case TypeColor.purple: return new Color(0.2071467f, 0.246063f, 0.4622642f, 1);
                 default: return Color.white;
             }
         }
