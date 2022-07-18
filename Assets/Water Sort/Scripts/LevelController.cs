@@ -90,9 +90,15 @@ namespace LiquidSoft
 
         public void OnSpawnLevel(int levelPlay)
         {
+            if (levelPlay == 0)
+                levelPlay = 1;
+
             DisplayController.instance.ChangeTextLevel(levelPlay);
             LevelNow = levelPlay;
-            levelSpawner.OnSpawnLevel(ConfigColecter.instance.levelConfig.levels[levelPlay-1]);
+            DebugLog.instance.Add("Set level now " + LevelNow);
+            
+            DebugLog.instance.Add("standby spawn level");
+            levelSpawner.OnSpawnLevel(ConfigColecter.instance.levelConfig.levels[levelPlay]);
 
             EventListenner.instance.OnLevelIsSpawn?.Invoke(levelPlay);
 

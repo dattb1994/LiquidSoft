@@ -43,10 +43,14 @@ namespace LiquidSoft
 
             if (resetLevel)
             {
-                PlayerPrefs.DeleteAll();
-                PlayerPrefs.SetInt("LevelNow", levelSet);
-                PlayerPrefs.SetInt("LevelUnlock", levelSet);
-
+                if (levelSet == 0)
+                    PlayerPrefs.DeleteAll();
+                else
+                {
+                    PlayerPrefs.DeleteAll();
+                    PlayerPrefs.SetInt("LevelNow", levelSet);
+                    PlayerPrefs.SetInt("LevelUnlock", levelSet);
+                }
 
                 resetLevel = false;
             }
@@ -62,6 +66,11 @@ namespace LiquidSoft
                 levelJson = "";
                 levelJson = levelCOnfigMain.ToString();
                 printLevel = false;
+                foreach (var item in levelCOnfigMain.levels)
+                {
+                    print("add");
+                    FindObjectOfType<ConfigColecter>().levelConfig.levels.Add(item);
+                }
             }
 
             if (pushToApi)

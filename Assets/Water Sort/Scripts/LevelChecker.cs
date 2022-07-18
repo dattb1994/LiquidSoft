@@ -16,7 +16,7 @@ namespace LiquidSoft
         public LevelConfogToString levelFromApi = new LevelConfogToString();
         void Start()
         {
-            StartCoroutine(Check());
+            //StartCoroutine(Check());
         }
         public string PathLink
         {
@@ -41,11 +41,11 @@ namespace LiquidSoft
             EventListenner.instance.OnStartLoadLevel?.Invoke();
 
             yield return WaitGetLevelLocal();
-            yield return WaitGetLevelApi();
+            //yield return WaitGetLevelApi();
 
             //if (levelConfig.levels.Count == 0)
             //{
-                UpdateLevelConfig();
+                //UpdateLevelConfig();
             //}
             //else
             //{
@@ -88,7 +88,9 @@ namespace LiquidSoft
                 string str = www.downloadHandler.text;
                 print(str);
                 if (str != "")
+                {
                     levelConfig = JsonUtility.FromJson<LevelConfogToString>(str);
+                }
                 else
                     levelConfig = new LevelConfogToString();
             }

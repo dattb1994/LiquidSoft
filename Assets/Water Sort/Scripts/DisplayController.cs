@@ -34,6 +34,8 @@ namespace LiquidSoft
             EventListenner.instance.OnLevelLoadStardDone += OnLoadingStaredDone;
             EventListenner.instance.OnTimeOutConnectInternet += WhenTimeOutInternet;
             EventListenner.instance.OnLevelIsOver += OnLevelIsOver;
+
+
         }
         public void OnButtonReplayClick()
         {

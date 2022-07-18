@@ -14,6 +14,7 @@ namespace LiquidSoft
         }
         public void OnSpawnLevel(LevelInfo info)
         {
+            DebugLog.instance.Add("OnSpawnLevel44444444444444");
             if (transform.childCount > 0)
                 Destroy(transform.GetChild(0).gameObject);
 
