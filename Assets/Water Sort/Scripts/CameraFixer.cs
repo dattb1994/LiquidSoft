@@ -6,12 +6,28 @@ namespace LiquidSoft
     [ExecuteInEditMode]
     public class CameraFixer : MonoBehaviour
     {
-        // Start is called before the first frame update
+        public bool MaintainWidth = true;
+        Vector3 CameraPos;
+        float DefaultWidth;
+        float DefaultHeight;
+        void Start()
+        {
+            CameraPos = Camera.main.transform.position;
 
+            DefaultWidth = Camera.main.orthographicSize * 1080;
+            DefaultHeight = Camera.main.orthographicSize;
+            if (MaintainWidth)
+            {
+                Camera.main.orthographicSize = DefaultWidth / Camera.main.aspect;
+            }
+            Camera.main.transform.position = new Vector3(CameraPos.x, -1 * (DefaultHeight - Camera.main.orthographicSize), CameraPos.z);
+        }
+
+
+        /* old
         public float ratio = 1.5f;
         void Start()
         {
-            //GetComponent<Camera>().rect = new Rect(0, 0.25f, 1, (float)Screen.width / Screen.height);
             if (Screen.width == 1080 && Screen.height == 2610)
                 GetComponent<Camera>().orthographicSize = 69.1f;
             else
@@ -24,19 +40,7 @@ namespace LiquidSoft
             else
                 GetComponent<Camera>().orthographicSize = 53f;
 
-            //GetComponent<Camera>().rect = new Rect(0, 0.25f, 1* ratio, (float)Screen.width * ratio / Screen.height);
-
-            //GetComponent<Camera>().orthographicSize = WaterSoftExtension.FindFloat((float)720/1600, (float)1440 / 2560, 53.2f, 44.18f, (float)(Screen.width/Screen.height));
         }
+        */
     }
 }
-// 0.5625       0.45 
-//  720     54.19 x
-//  1080    42.2  a
-
-
-//  720/1600  ~  52.5
-
-//  1 ~ 25.6
-
-//  1440/2560   44.18
