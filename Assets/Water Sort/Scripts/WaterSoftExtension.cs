@@ -81,13 +81,13 @@ namespace LiquidSoft
         {
             switch (type)
             {
-                case TypeColor.red: return Color.red;
+                case TypeColor.red: return new Color(.8f, 0, 0f, 1);
                 case TypeColor.blue: return Color.blue;
                 case TypeColor.yellow: return Color.yellow;
                 case TypeColor.green: return Color.green;
                 case TypeColor.pink: return new Color(1f, 0.2311321f, 0.799534f, 1);
                 case TypeColor.violet: return new Color(0.5f, 0f, 1f, 1);
-                case TypeColor.orange: return new Color(1f, 0.3087484f, 0f, 1);
+                case TypeColor.orange: return new Color(1f, .5f, 0f, 1);
                 case TypeColor.grey: return new Color(0.5849056f, 0.5849056f, 0.5849056f, 1);
                 case TypeColor.indigo_blue: return new Color(0.4622642f, 0.1504539f, 0.3022301f, 1);
                 case TypeColor.dark_blue: return new Color(0f, 0.2160905f, 0.5283019f, 1);

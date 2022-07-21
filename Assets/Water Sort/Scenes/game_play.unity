@@ -1470,6 +1470,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7513410421469206928, guid: b539e257d3e6f1042b3bde4794c1ffc1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8979354582300938862, guid: b539e257d3e6f1042b3bde4794c1ffc1, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -1740,10 +1744,10 @@ RectTransform:
   m_Father: {fileID: 1717624399}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.36033332, y: 0.9435044}
-  m_AnchorMax: {x: 0.6140488, y: 0.999352}
-  m_AnchoredPosition: {x: 0.000030517578, y: 1.0368652}
-  m_SizeDelta: {x: 0.000061035, y: 0}
+  m_AnchorMin: {x: 0.29533336, y: 0.9265}
+  m_AnchorMax: {x: 0.6505556, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0.11016846}
+  m_SizeDelta: {x: -0.000030518, y: 0.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &941013740
 MonoBehaviour:
@@ -1983,7 +1987,7 @@ MonoBehaviour:
   printLevel: 0
   pushToApi: 0
   levelCOnfigMain: {fileID: 11400000, guid: 46745453e63539546b242c260e149f8f, type: 2}
-  color: {r: 1, g: 0.23113209, b: 0.79953396, a: 1}
+  color: {r: 0.8980392, g: 0, b: 0, a: 1}
   StrColor: 1f,0.2311321f,0.799534f,1
   levelJson: '{"levels":[{"name":"Level 1","bottles":[{"liquids":[{"color":1,"amount":2},{"color":2,"amount":4}]},{"liquids":[{"color":2,"amount":2},{"color":1,"amount":4}]},{"liquids":[]}]},{"name":"Level
     2","bottles":[{"liquids":[{"color":4,"amount":1}]},{"liquids":[{"color":3,"amount":1}]},{"liquids":[{"color":4,"amount":3}]},{"liquids":[{"color":3,"amount":3}]}]},{"name":"Level
@@ -3175,8 +3179,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1447000579}
     m_Modifications:
     - target: {fileID: 123243296039308398, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.7372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 123243296039308398, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.5411765
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 123243296039308398, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
@@ -3184,7 +3192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 123243296039308398, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.8123068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 358392448882054277, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
       propertyPath: m_Layer
@@ -3301,6 +3309,18 @@ PrefabInstance:
     - target: {fileID: 5291828619769588224, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6494188667050762736, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.4575472
+      objectReference: {fileID: 0}
+    - target: {fileID: 6494188667050762736, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.94469106
+      objectReference: {fileID: 0}
+    - target: {fileID: 6494188667050762736, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6698615790038979098, guid: 0da0a45648f531542bee2ef5c2ded2a4, type: 3}
       propertyPath: m_Materials.Array.size
@@ -3922,10 +3942,10 @@ RectTransform:
   m_Father: {fileID: 1717624399}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.793694, y: 0.94988483}
-  m_AnchorMax: {x: 0.861694, y: 0.9888848}
-  m_AnchoredPosition: {x: 0.3251953, y: -0.25390625}
-  m_SizeDelta: {x: -0.34320068, y: -0.3097}
+  m_AnchorMin: {x: 0.8565276, y: 0.9437253}
+  m_AnchorMax: {x: 0.9390856, y: 0.98257095}
+  m_AnchoredPosition: {x: 0.000030517578, y: -0.20446777}
+  m_SizeDelta: {x: 0.000026703, y: -0.409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2113237728
 MonoBehaviour:
