@@ -1,4 +1,4 @@
-using com.shephertz.app42.paas.sdk.csharp;
+//using com.shephertz.app42.paas.sdk.csharp;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using UnityEngine;
 namespace LiquidSoft
 {
     [ExecuteInEditMode]
-    public class _Editor : MonoBehaviour, App42CallBack
+    public class _Editor : MonoBehaviour//, App42CallBack
     {
         public LevelInfo levelInfo;
 
@@ -78,7 +78,7 @@ namespace LiquidSoft
                 string _levelJson = "";
                 _levelJson = levelCOnfigMain.ToString();
 
-                App42iManager.UpdateData(this,_levelJson);
+                //App42iManager.UpdateData(this,_levelJson);
                 pushToApi = false;
                 DisplayController.instance.OnButtonReplayClick();
             }

@@ -1,5 +1,5 @@
-using com.shephertz.app42.paas.sdk.csharp;
-using com.shephertz.app42.paas.sdk.csharp.storage;
+//using com.shephertz.app42.paas.sdk.csharp;
+//using com.shephertz.app42.paas.sdk.csharp.storage;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 namespace LiquidSoft
 {
-    public class LevelChecker : MonoBehaviour, App42CallBack
+    public class LevelChecker : MonoBehaviour//, App42CallBack
     {
         public string nameFile = "levelConfig.json";
 
@@ -111,7 +111,7 @@ namespace LiquidSoft
             {
                 print("Connect to internet!");
                 DebugLog.instance.Add("Connect to internet!");
-                App42iManager.GetData(this);
+                //App42iManager.GetData(this);
                 while (levelFromApi.levels.Count == 0)
                     yield return null;
             }
@@ -137,25 +137,25 @@ namespace LiquidSoft
             DebugLog.instance.Add("write all file done");
 
         }
-        public void OnSuccess(object response)
-        {
-            DebugLog.instance.Add("Get data success with api");
-            Storage storage = (Storage)response;
-            IList<Storage.JSONDocument> jsonDocList = storage.GetJsonDocList();
-            string jsonString = "";
-            for (int i = 0; i < jsonDocList.Count; i++)
-            {
-                //print(jsonDocList[i].GetJsonDoc());
-                jsonString = jsonDocList[i].GetJsonDoc();
-            }
-            levelFromApi = new LevelConfogToString();
+        //public void OnSuccess(object response)
+        //{
+        //    DebugLog.instance.Add("Get data success with api");
+        //    Storage storage = (Storage)response;
+        //    IList<Storage.JSONDocument> jsonDocList = storage.GetJsonDocList();
+        //    string jsonString = "";
+        //    for (int i = 0; i < jsonDocList.Count; i++)
+        //    {
+        //        //print(jsonDocList[i].GetJsonDoc());
+        //        jsonString = jsonDocList[i].GetJsonDoc();
+        //    }
+        //    levelFromApi = new LevelConfogToString();
 
-            levelFromApi = JsonUtility.FromJson<LevelConfogToString>(jsonString);
-        }
-        public void OnException(Exception ex)
-        {
-            print("Get data fail");
-            DebugLog.instance.Add("Get data fail");
-        }
+        //    levelFromApi = JsonUtility.FromJson<LevelConfogToString>(jsonString);
+        //}
+        //public void OnException(Exception ex)
+        //{
+        //    print("Get data fail");
+        //    DebugLog.instance.Add("Get data fail");
+        //}
     }
 }

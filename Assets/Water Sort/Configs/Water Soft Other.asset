@@ -13,9 +13,14 @@ MonoBehaviour:
   m_Name: Water Soft Other
   m_EditorClassIdentifier: 
   speedMove: 300
-  speedPour: 30
+  speedPour: 50
   coutColor: 4
   minBottom: 0
   maxTop: 0
-  minPer: -7.5
-  maxPer: 8.7
+  minPer: 16.27
+  maxPer: 0
+  setAnglePour:
+    x1: 0
+    x2: 0
+    a1: 0
+    a2: 0

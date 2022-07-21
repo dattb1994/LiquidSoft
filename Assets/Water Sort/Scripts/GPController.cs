@@ -86,7 +86,7 @@ namespace LiquidSoft
         #region Check level done
         public List<TypeColor> liquids = new List<TypeColor>();
         public List<BottleController> bottles = new List<BottleController>();
-        private int cout = 0;
+        
         public void CheckLevelDone()
         {
             Invoke("CheckingLevelDone", .5f);

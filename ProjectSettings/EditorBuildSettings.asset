@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Water Sort/Scenes/game_play.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/New Scene.unity
+    guid: 39c7c67d48be4454884b9c8bff5d914b
   m_configObjects: {}

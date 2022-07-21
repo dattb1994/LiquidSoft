@@ -4,12 +4,15 @@ using UnityEngine;
 
 namespace LiquidSoft
 {
+    //[RequireComponent(typeof(SetLiquidPosY))]
     public class Liquid : MonoBehaviour
     {
         public Material material;
         public LiquidLevel liquidLevel;
 
         public Shader liquidShader;
+
+        public float volume;
 
         private void Start()
         {
@@ -19,6 +22,7 @@ namespace LiquidSoft
         public void SetMaterial()
         {
             Material _material = new Material(liquidShader);
+            _material.renderQueue = 3000;
             WaterSoftExtension.SetLiqidShader(_material, new LiquidShaderInfo());
             GetComponent<Renderer>().material = _material;
             material = GetComponent<Renderer>().material;
@@ -34,8 +38,9 @@ namespace LiquidSoft
         {
             liquidLevel = new LiquidLevel(liquid);
             material.SetColor("_MainColor", WaterSoftExtension.EnumToColor(liquid.color));
-
+            volume = WaterSoftExtension.IntToVolume(liquidLevel.percent);
             material.SetFloat("_Volume", WaterSoftExtension.IntToVolume(liquidLevel.percent));
+            print(liquidLevel.percent + "__" + volume);
         }
         public void Waving()
         {

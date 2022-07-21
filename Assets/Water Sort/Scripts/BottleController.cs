@@ -36,7 +36,7 @@ namespace LiquidSoft
         {
             Liquid _liqid = Instantiate(liquidPrefab, transform).GetComponent<Liquid>();
             _liqid.gameObject.name = "liquid_" + level.color + "_" + level.percent;
-            _liqid.transform.localPosition = new Vector3(0,0,z);
+            _liqid.transform.localPosition = new Vector3(0,-5,z);
             _liqid.liquidLevel = new LiquidLevel(level);
             _liqid.SetMaterial();
 
@@ -86,7 +86,7 @@ namespace LiquidSoft
                 //if(WaterSoftExtension.IntToAngle((int)_per)>=-90)
                 transform.parent.eulerAngles = new Vector3(0, 0, WaterSoftExtension.IntToAngle((int)_per));
 
-                if(GetTopPercent()>40)
+                //if(GetTopPercent()>40)
                     GetTopLiquid().SetVolume(WaterSoftExtension.IntToVolume((int)_per));
 
                 //if ()
@@ -115,69 +115,6 @@ namespace LiquidSoft
             CheckWhenEndPourIn(GPController.instance.bottlePourInlast);
 
         }
-        IEnumerator PouringOut1(PosPouring pouring)
-        {
-            GPController.instance.pouring = true;
-
-            float minPer = 0;
-            float _per = transform.GetChild(transform.childCount - 1).GetComponent<Liquid>().liquidLevel.percent;
-
-            if (transform.childCount >= 2)
-                minPer = transform.GetChild(transform.childCount - 2).GetComponent<Liquid>().liquidLevel.percent;
-
-            /// dich chuyen den vi tri do
-            while (transform.parent.transform.position != pouring.transform.position)
-            {
-                transform.parent.transform.position = Vector3.MoveTowards(transform.parent.transform.position, pouring.transform.position, Time.deltaTime * ConfigColecter.instance.softConfig.speedMove);
-                yield return null;
-            }
-
-            /// xoay goc do
-            /// 
-            float _per1 = 100;
-            while (_per1 > _per)
-            {
-                _per1 -= Time.deltaTime * ConfigColecter.instance.softConfig.speedPour*3;
-                transform.parent.eulerAngles = new Vector3(0, 0, WaterSoftExtension.IntToAngle((int)_per1));
-
-                yield return null;
-            }
-
-            pouring.OnStartPour(WaterSoftExtension.EnumToColor(GetTopLiquid().liquidLevel.color));
-
-            LiquidLevel liquidLevelIn = new LiquidLevel();
-            liquidLevelIn.color = GetTopLiquidLevel().color;
-            liquidLevelIn.percent = GetTopCountPercent();
-            GPController.instance.bottlePourIn.PourIn(liquidLevelIn);
-            /// bat dau do
-            while (_per > minPer)
-            {
-                _per = Mathf.MoveTowards(_per, minPer, Time.deltaTime * ConfigColecter.instance.softConfig.speedPour);
-
-                transform.parent.eulerAngles = new Vector3(0, 0, WaterSoftExtension.IntToAngle((int)_per));
-                GetTopLiquid().SetVolume(WaterSoftExtension.IntToVolume((int)_per));
-
-                //if ()
-
-                yield return null;
-            }
-            pouring.OnEndPour();
-            transform.parent.eulerAngles = new Vector3(0, 0, 0);
-            Destroy(transform.GetChild(transform.childCount - 1).gameObject);
-
-            /// ve lai vi tri ban dau
-            while (transform.parent.transform.position != startPos)
-            {
-                transform.parent.transform.position = Vector3.MoveTowards(transform.parent.transform.position, startPos, Time.deltaTime * ConfigColecter.instance.softConfig.speedMove);
-                yield return null;
-            }
-            ///  
-            GPController.instance.bottleSelecting = null;
-
-
-            GPController.instance.pouring = false;
-            OnPourInDone();
-        }
 
         public void PourIn(LiquidLevel liquidLevel)
         {
@@ -194,7 +131,7 @@ namespace LiquidSoft
 
             newLiquid.Waving();
 
-            newLiquid.transform.localPosition = Vector3.zero;
+            newLiquid.transform.localPosition = new Vector3(0,-5,0);
 
             LiquidLevel newLv = new LiquidLevel();
             newLv.percent = 0;

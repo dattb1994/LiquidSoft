@@ -61,18 +61,20 @@ namespace LiquidSoft
         {
             float result = 0;
 
-            float x1 = IntToVolume(60);
-            float x2 = IntToVolume(80);
+            float x2 = IntToVolume(25);
+            float x1 = IntToVolume(75);
 
-            float a2 = -36.091f;
-            float a1 = -62.504f;
+            float a1 = -37.557f;
+            float a2 = -54.126f;
 
-            result = FindFloat(x1,x2,a1,a2,vol) ;
+            result = FindFloat(x1, x2, a1, a2, vol);
 
-            if (result > -90) return result;
-
-            return -90;
+            //if (result > -90)
+                return result;
+            //return -90;
         }
+        //-6.577941  ~  -36.894
+        //
 
 
         public static Color EnumToColor(TypeColor type)

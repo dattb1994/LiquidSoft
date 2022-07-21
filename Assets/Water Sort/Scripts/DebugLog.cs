@@ -8,6 +8,8 @@ namespace LiquidSoft
     public class DebugLog : MonoBehaviour
     {
         public static DebugLog instance;
+
+        public bool canDebug = false;
         private void Awake()
         {
             instance = this;
@@ -21,7 +23,9 @@ namespace LiquidSoft
         }
         public void Add(string mesage)
         {
-            GetComponent<Text>().text ="....." + mesage + System.Environment.NewLine + GetComponent<Text>().text;
+            GetComponent<Text>().text = "";
+            if (!canDebug) return;
+            GetComponent<Text>().text = "....." + mesage + System.Environment.NewLine + GetComponent<Text>().text;
         }
     }
 }

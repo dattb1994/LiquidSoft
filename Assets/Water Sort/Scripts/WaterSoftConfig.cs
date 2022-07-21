@@ -13,6 +13,8 @@ namespace LiquidSoft
         public float minPer;
         public float maxPer;
 
+        public Float4 setAnglePour;
+        
         public int perOneParam { get => (int)(100 - minBottom - maxTop) / coutColor; }
 
     }

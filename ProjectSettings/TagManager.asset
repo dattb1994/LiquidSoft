@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - eff done
   - Water
   - UI
   - bottle
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: New Layer
     uniqueID: 4294102917
+    locked: 0
+  - name: eff done
+    uniqueID: 3042255479
     locked: 0

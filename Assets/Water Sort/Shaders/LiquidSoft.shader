@@ -1,4 +1,4 @@
-Shader "Liquid"
+Shader "Unlit//LiquidShader"
 {
 	Properties
 	{
@@ -15,7 +15,7 @@ Shader "Liquid"
 		_RimPower("Density Power", Range(0,10)) = 0.0
 	}
 
-		SubShader
+	SubShader
 	{
 		Pass
 		{

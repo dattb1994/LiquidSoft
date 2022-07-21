@@ -6,25 +6,8 @@ namespace LiquidSoft
     [ExecuteInEditMode]
     public class CameraFixer : MonoBehaviour
     {
-        public bool MaintainWidth = true;
-        Vector3 CameraPos;
-        float DefaultWidth;
-        float DefaultHeight;
-        void Start()
-        {
-            CameraPos = Camera.main.transform.position;
 
-            DefaultWidth = Camera.main.orthographicSize * 1080;
-            DefaultHeight = Camera.main.orthographicSize;
-            if (MaintainWidth)
-            {
-                Camera.main.orthographicSize = DefaultWidth / Camera.main.aspect;
-            }
-            Camera.main.transform.position = new Vector3(CameraPos.x, -1 * (DefaultHeight - Camera.main.orthographicSize), CameraPos.z);
-        }
-
-
-        /* old
+        
         public float ratio = 1.5f;
         void Start()
         {
@@ -41,6 +24,6 @@ namespace LiquidSoft
                 GetComponent<Camera>().orthographicSize = 53f;
 
         }
-        */
+
     }
 }

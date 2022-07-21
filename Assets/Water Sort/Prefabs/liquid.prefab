@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4508416539540879051}
   - component: {fileID: 4508416539540879052}
   - component: {fileID: 4508416539540879053}
+  - component: {fileID: 4322138890833224799}
   m_Layer: 0
   m_Name: liquid
   m_TagString: Untagged
@@ -99,4 +100,17 @@ MonoBehaviour:
   liquidLevel:
     color: 1
     amount: 1
-  liquidShader: {fileID: 4800000, guid: fc8ac26fe399cfa45ae8fedf568a3fc3, type: 3}
+  liquidShader: {fileID: 4800000, guid: 605090240b4fda143850863f2b89147a, type: 3}
+--- !u!114 &4322138890833224799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4508416539540879050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ced667739c23e49bc43405e0ff9386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
