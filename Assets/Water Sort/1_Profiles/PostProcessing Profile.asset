@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   gradingMode:
     overrideState: 1
-    value: 1
+    value: 0
   externalLut:
     overrideState: 0
     value: {fileID: 0}
@@ -107,7 +107,7 @@ MonoBehaviour:
     value: {x: 0.9807731, y: 0.9534937, z: 1, w: 0}
   gamma:
     overrideState: 1
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 1, y: 1, z: 1, w: 0.02526848}
   gain:
     overrideState: 1
     value: {x: 1, y: 1, z: 1, w: 0}

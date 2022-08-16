@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670ccd6234589f74d93120a402bca0c5, type: 3}
+  m_Name: Stack six config
+  m_EditorClassIdentifier: 
+  minDistanceGroundWithPoligon: 3.57
+  cameraSmoothLerp: 0.1
+  disTo2Block: 2.43
+  cdTapToBox: 0.3
+  blocks:
+  - {fileID: 3478900823969934010, guid: cb72a329240529243ba42d14b37b7513, type: 3}
+  - {fileID: 7476390166812515470, guid: bbc551f008c4f1a4b912e9ce4c950cb8, type: 3}
+  - {fileID: 2959352203435250446, guid: 636d2c5b6f1389846bb3dae4383d1a4a, type: 3}
+  - {fileID: 781053519916158230, guid: 08f8a922ea87f864eaaed8901bac9e45, type: 3}
+  - {fileID: 4224634742992152884, guid: def1f29fe466e4a4cb79462185e5b423, type: 3}
+  - {fileID: 3745545215957921812, guid: 58e88e6f694f6744c932de173b26aff7, type: 3}
+  - {fileID: 2181663310915552531, guid: 18da3f2a4d201974d96366b7a7903adf, type: 3}
+  massPlayer: 3
+  clickSound: {fileID: 3811028996368302008, guid: 1d2799db85ec6264c8f5809a35b4912f, type: 3}
